@@ -1,0 +1,110 @@
+body {
+	background-color: #4293d0;
+}
+
+.resize {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.resize img{
+	height: 35px;
+}
+
+/*-----This is me doing the wrong img css---*/
+/*img {
+	max-height: 75px:
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: contain;
+}*/
+
+.container {
+	width: 400px;
+	padding: 0px 40px;
+	margin: 0 auto;
+	background-color: white;
+	color: black;
+	font-family: Helvetica, sans-serif;
+	border-radius: 5px;
+}
+
+h2	{
+	font-size: 26px;
+	text-align: center;
+	padding-top: 30px;
+	font-family: Tahoma;
+	font-weight: normal;
+}
+
+.analogsea fieldset {
+	border: none;
+	padding-left: 15px;
+}
+
+.analogsea label {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.analogsea input {
+	width: 320px;
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 2px solid grey;
+	font-size: 16px;
+}
+
+input::placeholder {
+	font-size: 14px;
+}
+
+.analogsea button {
+	margin-left: 15px;
+	font-size: 20px;
+	width: 355px;
+	background-color: #69d285;
+	height: 50px;
+	color: white;
+	border-radius: 5px;
+	border: 2px solid grey;
+}
+
+button:hover {
+	background-color: #3f7e4f;
+}
+
+.forgot {
+	text-align: center;
+	color: #a3a2a2;
+	text-decoration: underline;
+	padding-bottom: 30px;
+}
+
+.login {
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+span {
+	text-decoration: underline;
+}
+
+.fp {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.bottom {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
